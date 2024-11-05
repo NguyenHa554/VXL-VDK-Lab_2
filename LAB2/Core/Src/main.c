@@ -387,13 +387,7 @@ static void MX_GPIO_Init(void)
 	  			  		HAL_GPIO_WritePin(SEG6_GPIO_Port, SEG6_Pin, RESET);
 	  		  break;
 	  	  default:
-	  		  	  	  	HAL_GPIO_WritePin(SEG0_GPIO_Port, SEG0_Pin, SET);
-	  			  		HAL_GPIO_WritePin(SEG1_GPIO_Port, SEG1_Pin, SET);
-	  			  		HAL_GPIO_WritePin(SEG2_GPIO_Port, SEG2_Pin, SET);
-	  			  		HAL_GPIO_WritePin(SEG3_GPIO_Port, SEG3_Pin, SET);
-	  			  		HAL_GPIO_WritePin(SEG4_GPIO_Port, SEG4_Pin, SET);
-	  			  		HAL_GPIO_WritePin(SEG5_GPIO_Port, SEG5_Pin, SET);
-	  			  		HAL_GPIO_WritePin(SEG6_GPIO_Port, SEG6_Pin, SET);
+	  		  	  	  	break;
 
 	  }
   }
@@ -506,7 +500,7 @@ void displayMatrix(uint8_t num){
 			HAL_GPIO_WritePin(ROW5_GPIO_Port, ROW5_Pin, RESET);
 	}
 	else{
-			HAL_GPIO_WritePin(ROW6_GPIO_Port, ROW6_Pin, SET);
+			HAL_GPIO_WritePin(ROW5_GPIO_Port, ROW5_Pin, SET);
 	}
 	if(num & (1U << 6)){
 			HAL_GPIO_WritePin(ROW6_GPIO_Port, ROW6_Pin, RESET);

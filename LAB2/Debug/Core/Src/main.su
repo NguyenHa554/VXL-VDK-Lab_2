@@ -4,10 +4,10 @@ main.c:196:13:MX_TIM2_Init	32	static
 main.c:241:13:MX_GPIO_Init	32	static
 main.c:292:7:HAL_TIM_PeriodElapsedCallback	16	static
 main.c:297:7:display7SEG	16	static
-main.c:405:6:update7SEG	16	static
-main.c:440:6:uprateClockBuffer	4	static
-main.c:459:6:resetMatrixState	8	static
-main.c:470:6:displayMatrix	16	static
-main.c:525:6:uprateLedMatrix	16	static
-main.c:565:6:uprateMatrixBuffer	16	static
-main.c:584:6:Error_Handler	4	static,ignoring_inline_asm
+main.c:399:6:update7SEG	16	static
+main.c:434:6:uprateClockBuffer	4	static
+main.c:453:6:resetMatrixState	8	static
+main.c:464:6:displayMatrix	16	static
+main.c:519:6:uprateLedMatrix	16	static
+main.c:559:6:uprateMatrixBuffer	16	static
+main.c:578:6:Error_Handler	4	static,ignoring_inline_asm
